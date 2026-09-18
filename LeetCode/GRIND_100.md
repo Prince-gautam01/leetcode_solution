@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 2 / 100 (2.0%)
+- **Completed:** 3 / 100 (3.0%)
 
 ---
 
@@ -97,7 +97,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Partition Equal Subset Sum
 - [ ] Edit Distance
 - [x] [Unique Paths](./C++/Medium/62. Unique Paths/)
-- [ ] Minimum Path Sum
+- [x] [Minimum Path Sum](./C++/Medium/64. Minimum Path Sum/)
 - [ ] Target Sum
 - [ ] Unique Binary Search Trees
 - [ ] Best Time to Buy and Sell Stock
