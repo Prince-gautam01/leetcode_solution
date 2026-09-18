@@ -9,7 +9,7 @@ class Solution {
             return matrix[i][j];
         }
 
-        if(dp[i][j]!=-1){
+        if(dp[i][j]!=INT_MAX){
             return dp[i][j];
         }
 
@@ -18,8 +18,7 @@ class Solution {
         int below=solve(i+1,j-1,matrix,m,n,dp);
         int DiagLeft=solve(i+1,j,matrix,m,n,dp);
         int DiagRight=solve(i+1,j+1,matrix,m,n,dp);
-
-        dp[i][j]=matrix[i][j] + min(min(below,DiagLeft),DiagRight);
+        dp[i][j]=matrix[i][j] + min(below,min(DiagLeft,DiagRight));
 
         return dp[i][j];
     }
@@ -30,7 +29,7 @@ public:
         int n=matrix[0].size();
        int ans=INT_MAX;
 
-        vector<vector<int>> dp(m,vector<int>(n,-1));
+        vector<vector<int>> dp(m,vector<int>(n,INT_MAX));
 
         for(int j=0;j<n;j++){
             ans=min(ans,solve(0,j,matrix,m,n,dp));
