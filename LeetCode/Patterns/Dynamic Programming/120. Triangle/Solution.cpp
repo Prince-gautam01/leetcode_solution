@@ -10,7 +10,7 @@ class Solution {
             return triangle[i][j];   //base case
         }
 
-        if(dp[i][j]!=-1){
+        if(dp[i][j]!=INT_MAX){
             return dp[i][j];
         }
 
@@ -28,7 +28,7 @@ public:
     int minimumTotal(vector<vector<int>>& triangle) {
     int n= triangle.size();
 
-        vector<vector<int>> dp(n,vector<int>(n,-1));
+        vector<vector<int>> dp(n,vector<int>(n,INT_MAX));
         
         return solve(0,0,triangle,n,dp);
         
