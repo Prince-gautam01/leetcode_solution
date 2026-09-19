@@ -1,6 +1,6 @@
 # 📝 120. Triangle (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/triangle/)
+🔗 [Problem Link](https://leetcode.com/problems/triangle)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
