@@ -1,10 +1,7 @@
 class Solution {
     private:
       int  solve(int i,int j,vector<vector<int>>& triangle,int n,vector<vector<int>> &dp){
-        
-        // if(i>=n || j>=triangle[i].size() || i<0 || j<0){
-        //     return INT_MAX;
-        // }
+    
 
         if(i==n-1){
             return triangle[i][j];   //base case
