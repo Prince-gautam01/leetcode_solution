@@ -1,6 +1,6 @@
 # 📝 2706. Buy Two Chocolates (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/buy-two-chocolates)
+🔗 [Problem Link](https://leetcode.com/problems/buy-two-chocolates/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
