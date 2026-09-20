@@ -1,6 +1,6 @@
 # 📝 3945. Digit Frequency Score (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/digit-frequency-score/)
+🔗 [Problem Link](https://leetcode.com/problems/digit-frequency-score)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
