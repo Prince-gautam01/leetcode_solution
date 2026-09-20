@@ -2,6 +2,8 @@ class Solution {
 public:
     int digitFrequencyScore(int n) {
 
+        un
+
         vector<int> v(9,0);
         while(n!=0){
             int k=n%10;
