@@ -2,7 +2,9 @@ class Solution {
 public:
     int digitFrequencyScore(int n) {
 
-        vector<int> v(9,0);
+        // unordered_list<int,int> freq;
+
+        vector<int> v(10,0);
         while(n!=0){
             int k=n%10;
             v[k]++;
