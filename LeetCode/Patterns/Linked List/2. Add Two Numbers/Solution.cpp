@@ -104,8 +104,7 @@ public:
 
         //step1 rev ll
 
-        l1=reverse(l1);
-        l2=reverse(l2);
+     
 
         //step 2 add
         ListNode* ans=add(l1,l2);
