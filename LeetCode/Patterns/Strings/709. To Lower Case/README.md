@@ -1,6 +1,6 @@
 # 📝 709. To Lower Case (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/to-lower-case)
+🔗 [Problem Link](https://leetcode.com/problems/to-lower-case/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 

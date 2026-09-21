@@ -12,8 +12,9 @@ public:
                 char ch=s[i];
                 temp.push_back(ch);
             }
+            else
 
-            
+
 
         }
 
