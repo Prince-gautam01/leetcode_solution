@@ -15,7 +15,7 @@ public:
 
 
 
-        long long i=1;
+        long long i=0;
         long long j=c;
         while(i<=j){
 
@@ -27,7 +27,7 @@ public:
             else if( sum >c){
                 j--;
             }
-            else if(sum<c){
+            else {
                 i++;
             }
 
