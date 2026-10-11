@@ -16,7 +16,7 @@ public:
 
 
         long long i=0;
-        long long j=sqrtc;
+        long long j=sqrt(c);
         while(i<=j){
 
             long long sum=i*i + j*j;
