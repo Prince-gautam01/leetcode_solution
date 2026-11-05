@@ -9,7 +9,7 @@ public:
         for(int i=0;i<n;i++){
             int cnt=0;
             for(int j=0;j<m;j++){
-                if(arr1[i]!=arr2[j] && abs(arr1[i]-arr2[j])<=d){
+                if( abs(arr1[i]-arr2[j])<=d){
                     cnt++;
                 }
             }
