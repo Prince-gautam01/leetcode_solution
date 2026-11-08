@@ -2,39 +2,25 @@ class Solution {
 public:
     int missingMultiple(vector<int>& nums, int k) {
 
-        sort(nums.begin(),nums.end());
         int n=nums.size();
-        vector<int> ans;
-        int res=0;
+        vector<bool> present(101,false);
+        
 
-        for(int i=0;i<n;i++){
-            if(nums[i]%k==0){
-                ans.push_back(nums[i]);
+        for(int i:nums){
+            if(i%k==0){
+                present[i/k]=true;
             }
            }
 
-        if(ans.size()<2){
-            if(ans[0]-k ==0){
-               res= ans[0]+k;
-            }
-            else{
-                return k;
-            }
-        }
 
-        for(int i=1;i<ans.size();i++){
-            if(ans[0]-k!=0){
-                res= k;
-            }
-            
-            else if(ans[i]-ans[i-1]!=0){
-                res= ans[i]+k;
-
+        for(int i=1; ;i++){
+            if(!present[i]){
+               return i*k;
             }
         }
 
         
-    return res;
+    return -1;
         
     }
 };
