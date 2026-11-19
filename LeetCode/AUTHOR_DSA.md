@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 1 / 238 (0.4%)
+- **Completed:** 2 / 238 (0.8%)
 
 ---
 
@@ -67,7 +67,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 ### 📂 MODULE  3.2: SIMPLE ARRAY SIMULATION PRO
 - [ ] Count numbers with even number of digits
 - [ ] Digit Game
-- [ ] Sum of Good Numbers
+- [x] [Sum of Good Numbers](./C++/Easy/3452. Sum of Good Numbers/)
 - [ ] Stable Mountains
 - [ ] Array by Parity
 - [ ] GCD of Array
